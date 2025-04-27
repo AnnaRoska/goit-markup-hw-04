@@ -206,9 +206,7 @@ padding: 24px 100px;
 /* .part-three-icons:hover, .part-three-icons:focus{
     background-color: #31d0aa;
 } */
- .svg-style{
-    fill:var(--cloud);
- }
+
 .link-svg{
     width: 100%;
     height: 100%;
@@ -219,14 +217,21 @@ padding: 24px 100px;
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* .link-svg:hover {
+.link-svg:hover {
     background-color: #31d0aa;
     border-radius: 50%;
-} */
-/* .link-svg:focus{
-    background-color: #31d0aa;
+}
+.link-svg:focus{
+    background-color: #31d0aa; ;
     border-radius: 50%;
-} */
+}
+.svg-style{
+    fill:var(--cloud);
+ }
+ /* .svg-style:focus{
+    background-color: #404bbf; 
+    
+ } */
 
 .icons-social{
     display: flex;
